@@ -18,6 +18,7 @@ export class AppComponent {
   ngOnInit() {
     this.myFirstService.getData(this.LOLAPIKEY).subscribe(data => {
       this.records = data;
+      console.log(this.records);
     })
   }
 }
