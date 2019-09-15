@@ -122,8 +122,13 @@
               "devServerTarget": "intro2angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "intro2angular"
 }
